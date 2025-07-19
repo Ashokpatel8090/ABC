@@ -1,7 +1,18 @@
-// src/App.jsx
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-// ...other imports
+import Header from "./components/Header";
+import AboutPage from "./components/AboutHeroSection";
+import Home from "./pages/Home";
+import FoundingTeamSection from "./components/FoundingTeamSection";
+import BlogsPage from "./components/Blogs";
+import CareersPage from "./components/Career";
+import PrivacyPolicy from "./components/PrivacyPolicy";
+import Footer from "./components/Footer";
+import TermConditions from "./components/Term&Conditions";
+import Products from "./pages/products";
+import WhatsappButton from "./components/WhatsappButton";
+import ChatBotWidget from "./components/ChatBoat";
+import Support from "./components/Support";
 
 const App = () => {
   return (
