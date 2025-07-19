@@ -13,7 +13,6 @@ import Products from "./pages/products";
 import WhatsappButton from "./components/WhatsappButton";
 import ChatBotWidget from "./components/ChatBoat";
 
-
 const App = () => {
   return (
     <>
@@ -21,17 +20,17 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<AboutPage />} />
-        <Route path="/products" element={<Products/>}/>
-        <Route path="/contact" element={<FoundingTeamSection/>}/>
-        <Route path="/join" element={<FoundingTeamSection/>}/>
-        <Route path="/blogs" element={<BlogsPage/>}/>
-        <Route path="/careers" element={<CareersPage/>}/>
-        <Route path="/privacy-policy" element={<PrivacyPolicy/>}/>
-        <Route path="/terms-conditions" element={<TermConditions/>}/>
+        <Route path="/products" element={<Products />} />
+        <Route path="/contact" element={<FoundingTeamSection />} />
+        <Route path="/join" element={<FoundingTeamSection />} />
+        <Route path="/blogs" element={<BlogsPage />} />
+        <Route path="/careers" element={<CareersPage />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms-conditions" element={<TermConditions />} />
       </Routes>
-      <WhatsappButton/>
-      <ChatBotWidget/>
-      <Footer/>
+      <WhatsappButton />
+      <ChatBotWidget />
+      <Footer />
     </>
   );
 };
