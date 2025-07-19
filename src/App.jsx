@@ -12,6 +12,7 @@ import TermConditions from "./components/Term&Conditions";
 import Products from "./pages/products";
 import WhatsappButton from "./components/WhatsappButton";
 import ChatBotWidget from "./components/ChatBoat";
+import Support from "./components/Support";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/careers" element={<CareersPage />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms-conditions" element={<TermConditions />} />
+        <Route path="/support" element={<Support />} />
       </Routes>
       <WhatsappButton />
       <ChatBotWidget />

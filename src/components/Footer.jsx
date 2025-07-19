@@ -22,7 +22,7 @@ const Footer = () => {
         <div className="flex justify-center gap-6 text-sm md:text-base font-medium">
           <Link to="/terms-conditions" className="hover:underline">Terms & Conditions</Link>
           <Link to="/privacy-policy" className="hover:underline">Privacy & Policy</Link>
-          <a href="https://medicaps.in/support" target="_blank" rel="noopener noreferrer" className="hover:underline">
+          <a href="/support"  className="hover:underline">
             Support
           </a>
         </div>
